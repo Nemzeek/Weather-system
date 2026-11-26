@@ -1,0 +1,23 @@
+{
+  "$schema": "https://reacticx.com/schema/component.config.json",
+  "outDir": "components/ui",
+  "structure": "category",
+  "aliases": {
+    "components": "@/components/ui",
+    "utils": "@/lib/utils",
+    "hooks": "@/lib/hooks"
+  },
+  "paths": {
+    "utils": "lib/utils",
+    "hooks": "lib/hooks",
+    "types": "lib/types",
+    "examples": "lib/examples"
+  },
+  "include": {
+    "dependencies": true,
+    "types": true,
+    "examples": false
+  },
+  "packageManager": "npm",
+  "installDependencies": "auto"
+}
